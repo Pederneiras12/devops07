@@ -169,6 +169,18 @@ dhcpd:
       hardware: ethernet F4:30:B9:A8:B7:ED      
       
 admcom:
+  work98: |
+    CLIEN B4
+    ESTAB 08
+    CAIXA 98
+    RAMO  ?
+    FISCAL
+    PREVENDA YES
+    PORTAECF /dev/ttyS0
+    CARNE carne_e.p
+    RECIBO recibo_e.p
+    COMECF NAO
+    VENDA NAO
   mestre: |
     CRIAPEDIDOAUTOMATICO YES
     NUMERACAOAUTOMATICA YES
