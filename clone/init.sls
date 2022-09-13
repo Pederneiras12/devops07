@@ -1,0 +1,13 @@
+include:
+  - clone.salt
+  - clone.zabbix
+  - clone.users
+  - clone.cron
+  - clone.ntp
+  - clone.ssh
+  - clone.nfs
+  - clone.samba
+  - clone.dhcpd
+  - clone.ltsp
+  - clone.sudoers
+  - clone.rotate
