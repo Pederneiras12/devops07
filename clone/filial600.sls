@@ -67,16 +67,6 @@ admcom:
     RECIBO recibo_e.p
     COMECF NAO
     VENDA NAO
-  work98: |
-    CLIEN B4
-    ESTAB 190
-    CAIXA 98
-    RAMO  ?
-    FISCAL impecf.p
-    PORTAECF /dev/ttyS0
-    PREVENDA YES
-    PACOTE YES
-    TERMICAPRE SIM
   work2: |
     CLIEN B4
     ESTAB 600
