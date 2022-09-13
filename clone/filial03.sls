@@ -115,16 +115,6 @@ admcom:
     CARNE carne_e.p
     RECIBO recibo_e.p
     COMECF NAO
-  work98: |
-    CLIEN B4
-    ESTAB 03
-    CAIXA 98
-    RAMO  ?
-    FISCAL impecf.p
-    PORTAECF /dev/ttyS0
-    PREVENDA YES
-    PACOTE YES
-    TERMICAPRE SIM
   work4: |
     CLIEN B4
     ESTAB 03
